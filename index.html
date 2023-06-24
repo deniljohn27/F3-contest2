@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navContainer displayNav">
+            <div class="itemLeft">
+                Header
+            </div>
+            <div class="itemRight displayNav">
+                <div class="item1">
+                    Signup
+                </div>
+                <div class="item2">
+                    Profile
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p class="signup">
+            Signup
+        </p>
+        <input type="text" name="FullName" id="name" placeholder="FullName">
+        <input type="email" name="Email" id="email" placeholder="Email">
+        <input type="password" name="Password" id="password" placeholder="Password">
+        <input type="password" name="ConPassword" id="cpassword" placeholder="Confirm Password">
+        <div id="failure">Error : All the fields are mandatory</div>
+        <div id="success"> Successfully Signed Up!</div>
+        <button id="signupBtn">Signup</button>
+
+    </main>
+    <script src="./script.js"></script>
+    <!-- <script src="./script2.js"></script> -->
+</body>
+</html>
